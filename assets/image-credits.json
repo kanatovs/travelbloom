@@ -1,0 +1,66 @@
+[
+  {
+    "file": "assets/images/whitehaven.jpg",
+    "subject": "Whitehaven Beach",
+    "source": "https://commons.wikimedia.org/wiki/File:Whitehaven_Beach,_Whitsunday_Island,_Queensland.jpg",
+    "artist": "Slug69",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  {
+    "file": "assets/images/bondi.jpg",
+    "subject": "Bondi Beach",
+    "source": "https://commons.wikimedia.org/wiki/File:Bondi_from_above.jpg",
+    "artist": "Nick Ang",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "file": "assets/images/angkor.jpg",
+    "subject": "Angkor Wat",
+    "source": "https://commons.wikimedia.org/wiki/File:Angkor_Wat.jpg",
+    "artist": "Bjørn Christian Tørrissen",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "file": "assets/images/kiyomizu.jpg",
+    "subject": "Kiyomizu-dera",
+    "source": "https://commons.wikimedia.org/wiki/File:Kiyomizu.jpg",
+    "artist": "Jordy Meow",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "file": "assets/images/sydney.jpg",
+    "subject": "Sydney Opera House",
+    "source": "https://commons.wikimedia.org/wiki/File:Sydney_Opera_House_2026.jpg",
+    "artist": "BAVhah",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "file": "assets/images/melbourne.jpg",
+    "subject": "Flinders Street railway station",
+    "source": "https://commons.wikimedia.org/wiki/File:Flinders_Station_and_trams.jpg",
+    "artist": "Created by Philip Mallis in 2021; cropped by HappyWaldo",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "file": "assets/images/tokyo.jpg",
+    "subject": "Shibuya Crossing",
+    "source": "https://commons.wikimedia.org/wiki/File:Shibuya_Crossing,_Aerial.jpg",
+    "artist": "David Kernan",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+  },
+  {
+    "file": "assets/images/kyoto.jpg",
+    "subject": "Arashiyama",
+    "source": "https://commons.wikimedia.org/wiki/File:Arashiyama,_Part_II_-_Arashiyama7534.jpg",
+    "artist": "lumoplank",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  }
+]

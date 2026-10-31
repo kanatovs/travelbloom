@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Find your next escape with TravelBloom. Explore beautiful beaches, remarkable temples, and inspiring cities."
+    />
+    <meta name="theme-color" content="#173e35" />
+    <title>TravelBloom — A little further, a little closer to you</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <script type="module" src="assets/app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="TravelBloom home"
+        ><span class="brand-icon" aria-hidden="true">✳</span> TravelBloom<span
+          class="brand-dot"
+          >.</span
+        ></a
+      >
+      <nav aria-label="Main navigation">
+        <a href="index.html" aria-current="page">Home</a
+        ><a href="about.html">About Us</a><a href="contact.html">Contact Us</a>
+      </nav>
+      <form class="nav-search" role="search" action="index.html">
+        <label class="sr-only" for="search-input"
+          >Search a destination or keyword</label
+        >
+        <span aria-hidden="true" class="search-icon">⌕</span
+        ><input
+          id="search-input"
+          name="q"
+          type="search"
+          placeholder="Beach, temple, or country…"
+          maxlength="80"
+          autocomplete="off"
+        />
+        <button type="submit">Search</button
+        ><button type="reset" class="reset-button">Reset</button>
+      </form>
+    </header>
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <img
+          class="hero-image"
+          src="assets/images/whitehaven.jpg"
+          alt="Turquoise water and white sand at Whitehaven Beach, Australia"
+          fetchpriority="high"
+        />
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="eyebrow light"><span></span> LESS ROUTINE. MORE WORLD.</p>
+          <h1 id="hero-title">Somewhere new.<br />Something <em>you.</em></h1>
+          <p class="hero-description">
+            Quiet shores. Timeless temples. Cities with a pulse.<br />Find the
+            places that speak to your kind of adventure.
+          </p>
+          <a class="button button-cream" href="#discover"
+            >Find my next escape <span aria-hidden="true">↗</span></a
+          >
+        </div>
+        <div class="hero-bottom">
+          <span>YOUR NEXT CHAPTER STARTS HERE</span
+          ><a href="#discover"
+            >Explore a little <span aria-hidden="true">↓</span></a
+          ><span>WHITEHAVEN BEACH · AUSTRALIA</span>
+        </div>
+      </section>
+      <section
+        id="discover"
+        class="discover section-wrap"
+        aria-labelledby="discover-title"
+      >
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">A WORLD OF POSSIBILITIES</p>
+            <h2 id="discover-title">Where will curiosity take you?</h2>
+          </div>
+          <p>Start with a feeling.<br />We’ll help you find the place.</p>
+        </div>
+        <div class="filter-row">
+          <div
+            class="filters"
+            role="group"
+            aria-label="Recommendation categories"
+          >
+            <button type="button" data-category="all" aria-pressed="true">
+              All places <span>08</span></button
+            ><button type="button" data-category="beaches" aria-pressed="false">
+              Beaches <span>02</span></button
+            ><button type="button" data-category="temples" aria-pressed="false">
+              Temples <span>02</span></button
+            ><button
+              type="button"
+              data-category="countries"
+              aria-pressed="false"
+            >
+              Countries <span>04</span>
+            </button>
+          </div>
+          <p id="result-count" role="status" aria-live="polite">
+            Loading places…
+          </p>
+        </div>
+        <div id="results" class="results-grid" aria-busy="true"></div>
+        <noscript
+          ><p class="empty-state">
+            Please enable JavaScript to search and display travel
+            recommendations.
+          </p></noscript
+        >
+      </section>
+      <section class="closing-note section-wrap">
+        <span class="brand-icon" aria-hidden="true">✳</span>
+        <p>
+          The best trips don’t just take you places.<br />They bring you
+          <em>back to yourself.</em>
+        </p>
+        <a href="about.html"
+          >Meet TravelBloom <span aria-hidden="true">↗</span></a
+        >
+      </section>
+    </main>
+    <footer class="site-footer">
+      <a class="brand" href="index.html">TravelBloom.</a>
+      <p>A little further. A little closer to you.</p>
+      <a href="about.html#image-credits">Image credits</a
+      ><span>Educational project · 2026</span>
+    </footer>
+    <dialog id="place-dialog" aria-labelledby="dialog-title">
+      <button
+        type="button"
+        class="dialog-close"
+        aria-label="Close destination details"
+      >
+        ×
+      </button>
+      <div id="dialog-content"></div>
+    </dialog>
+  </body>
+</html>

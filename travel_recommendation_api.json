@@ -1,0 +1,129 @@
+{
+  "beaches": [
+    {
+      "id": "whitehaven",
+      "name": "Whitehaven Beach",
+      "location": "Whitsunday Island, Australia",
+      "imageUrl": "assets/images/whitehaven.jpg",
+      "alt": "White sand and blue water at Whitehaven Beach",
+      "description": "White silica sand meets swirling turquoise water. A little space to slow down and take in the coastline.",
+      "tip": "Respect the national park: take your litter with you and leave the sand where it belongs.",
+      "timeZone": "Australia/Brisbane",
+      "keywords": [
+        "whitehaven",
+        "whitsunday",
+        "australia",
+        "австралия",
+        "уайтхейвен"
+      ]
+    },
+    {
+      "id": "bondi",
+      "name": "Bondi Beach",
+      "location": "Sydney, Australia",
+      "imageUrl": "assets/images/bondi.jpg",
+      "alt": "The sweeping shoreline and ocean at Bondi Beach",
+      "description": "Ocean air, rolling surf, and a lively beachside atmosphere. Discover a different side of Sydney by the sea.",
+      "tip": "Swim between the flags and follow lifeguard advice. The coastal walk offers another way to enjoy the view.",
+      "timeZone": "Australia/Sydney",
+      "keywords": [
+        "bondi",
+        "sydney",
+        "australia",
+        "австралия",
+        "бонди",
+        "сидней"
+      ]
+    }
+  ],
+  "temples": [
+    {
+      "id": "angkor",
+      "name": "Angkor Wat",
+      "location": "Siem Reap, Cambodia",
+      "imageUrl": "assets/images/angkor.jpg",
+      "alt": "The stone towers of Angkor Wat in Cambodia",
+      "description": "Discover intricately carved stone galleries and remarkable Khmer architecture in an unforgettable temple setting.",
+      "tip": "Dress respectfully, cover shoulders and knees, and follow signs around sacred areas.",
+      "timeZone": "Asia/Phnom_Penh",
+      "keywords": ["angkor", "cambodia", "siem reap", "ангкор", "камбоджа"]
+    },
+    {
+      "id": "kiyomizu",
+      "name": "Kiyomizu-dera",
+      "location": "Kyoto, Japan",
+      "imageUrl": "assets/images/kiyomizu.jpg",
+      "alt": "The wooden temple buildings of Kiyomizu-dera in Kyoto",
+      "description": "Wooden architecture and hillside views meet the winding lanes of Kyoto. Find a moment of calm above the city.",
+      "tip": "Keep voices low in worship areas and follow photography guidance at the temple.",
+      "timeZone": "Asia/Tokyo",
+      "keywords": [
+        "kiyomizu",
+        "kyoto",
+        "japan",
+        "киёмидзу",
+        "киемидзу",
+        "киото",
+        "япония"
+      ]
+    }
+  ],
+  "countries": [
+    {
+      "name": "Australia",
+      "keywords": ["australia", "австралия"],
+      "cities": [
+        {
+          "id": "sydney",
+          "name": "Sydney",
+          "location": "Australia",
+          "imageUrl": "assets/images/sydney.jpg",
+          "alt": "Sydney Opera House on the Australian harbour",
+          "description": "Harbour views, distinctive architecture, and neighbourhoods made for wandering. Start with the waterfront and see where it leads.",
+          "tip": "Explore the harbour on foot or by public ferry for a fresh perspective on the city.",
+          "timeZone": "Australia/Sydney",
+          "keywords": ["sydney", "сидней"]
+        },
+        {
+          "id": "melbourne",
+          "name": "Melbourne",
+          "location": "Australia",
+          "imageUrl": "assets/images/melbourne.jpg",
+          "alt": "The historic Flinders Street railway station in Melbourne",
+          "description": "Follow the laneways to street art, independent cafés, and a city full of creative energy.",
+          "tip": "Take time to explore the smaller laneways around the city centre.",
+          "timeZone": "Australia/Melbourne",
+          "keywords": ["melbourne", "мельбурн"]
+        }
+      ]
+    },
+    {
+      "name": "Japan",
+      "keywords": ["japan", "япония"],
+      "cities": [
+        {
+          "id": "tokyo",
+          "name": "Tokyo",
+          "location": "Japan",
+          "imageUrl": "assets/images/tokyo.jpg",
+          "alt": "People crossing the famous Shibuya Crossing in Tokyo",
+          "description": "A city of contrasts: busy crossings, small side streets, and pockets of quiet. Make room for both the iconic and the unexpected.",
+          "tip": "Explore one neighbourhood at a time and observe local etiquette on public transport.",
+          "timeZone": "Asia/Tokyo",
+          "keywords": ["tokyo", "токио", "shibuya"]
+        },
+        {
+          "id": "kyoto",
+          "name": "Kyoto",
+          "location": "Japan",
+          "imageUrl": "assets/images/kyoto.jpg",
+          "alt": "The scenic Arashiyama area of Kyoto in Japan",
+          "description": "Riverside walks, mountain scenery, and a slower rhythm. Let the Arashiyama landscape set the pace.",
+          "tip": "Stay on marked paths and respect residential areas while exploring.",
+          "timeZone": "Asia/Tokyo",
+          "keywords": ["kyoto", "киото", "arashiyama", "арасияма"]
+        }
+      ]
+    }
+  ]
+}
